@@ -20,6 +20,9 @@ This repository is a result of that search.
 - ./data/daily/us/       Data files are located under this branch
 - ./data/daily/world/    More data files
 
+## Please Star This Repo!
+*It will heLp others to find it*
+
 ## Disclaimer
 This information is provided for educational purposes and does not constitute financial or trading advice.
 The information is provided without warranty, expressed or implied.  

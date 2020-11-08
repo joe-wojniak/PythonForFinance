@@ -14,7 +14,7 @@ This repository is a result of that search.
 
 Download the data (*.zip) and source code (*.ipynb)
 
-Data provided by [Stooq](https://stooq.com/db/h/)
+Data downloaded from [Stooq](https://stooq.com/db/h/)
 
 *The source code requires the following file folder structure:*
 - ./                     Run Jupyter Lab or Python from this level in the folder structure

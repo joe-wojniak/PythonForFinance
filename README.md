@@ -14,11 +14,11 @@ This repository is a result of that search.
 Download the data and source code (*.py or *.ipynb)
 
 ### The source code requires the following file folder structure:
-| ./|                    Run Jupyter Lab or Python from this level in the folder structure|
-| ./data/daily/us/|      Data files are located under this branch|
-| ./data/daily/world/|   More data files|
+| ./ |                    Run Jupyter Lab or Python from this level in the folder structure |
+| ./data/daily/us/ |      Data files are located under this branch |
+| ./data/daily/world/ |   More data files |
 
-**Disclaimer**
+## Disclaimer
 This information is provided for educational purposes and does not constitute financial or trading advice.
 The information is provided without warranty, expressed or implied.  
 This work is provided under the Apache 2.0 license included in this repository (the "License").

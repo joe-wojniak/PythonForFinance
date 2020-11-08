@@ -15,7 +15,7 @@ Download the data (*.zip) and source code (*.ipynb)
 
 Data provided by [Stooq](https://stooq.com/db/h/)
 
-### The source code requires the following file folder structure:
+*The source code requires the following file folder structure:*
 - ./                     Run Jupyter Lab or Python from this level in the folder structure
 - ./data/daily/us/       Data files are located under this branch
 - ./data/daily/world/    More data files

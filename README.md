@@ -1,2 +1,4 @@
 # PythonForFinance
-Examples inspired by book Python For Finance
+Examples inspired by the book Python for Finance
+
+Python for Finance, 2nd ed, Hilpisch, Yves

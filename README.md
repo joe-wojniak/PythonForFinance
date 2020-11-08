@@ -15,9 +15,9 @@ This repository is a result of that search.
 1. Download the source code (*.ipynb)
 2. Download the data from [Stooq](https://stooq.com/db/h/)
 
-*The source code requires the following file folder structure:*
+*The source code requires the following file structure:*
 
-| File path | Comments |
+| Path | Comments |
 | --------- | -------- |
 | ./ | Run Jupyter Lab or Python from this level in the folder structure |
 | ./data/daily/us/ | Data files are located under this branch |

@@ -15,7 +15,7 @@ This repository is a result of that search.
 1. Download the source code (*.ipynb)
 2. Download the data from [Stooq](https://stooq.com/db/h/)
 
-*The source code requires the following file structure:*
+*The source code requires the following folder structure:*
 
 | Path | Comments |
 | --------- | -------- |
@@ -29,4 +29,4 @@ This repository is a result of that search.
 ## Disclaimer
 This information is provided for educational purposes and does not constitute financial or trading advice.
 The information is provided without warranty, expressed or implied.  
-This work is provided under the Apache 2.0 license included in this repository (the "License").
+This work is provided under the Apache 2.0 license included in this repository (the "License".)

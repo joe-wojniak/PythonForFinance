@@ -12,9 +12,8 @@ This repository is a result of that search.
 
 ## How do I use this repo?
 
-Download the data (*.zip) and source code (*.ipynb)
-
-Data downloaded from [Stooq](https://stooq.com/db/h/)
+1. Download the source code (*.ipynb)
+2. Download the data from [Stooq](https://stooq.com/db/h/)
 
 *The source code requires the following file folder structure:*
 - ./                     Run Jupyter Lab or Python from this level in the folder structure

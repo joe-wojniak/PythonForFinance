@@ -11,7 +11,7 @@ This repository is a result of that search.
 
 ## How do I use this repo?
 
-Download the data and source code (*.py or *.ipynb)
+Download the data (*.zip) and source code (*.ipynb)
 
 ### The source code requires the following file folder structure:
 > ./                     Run Jupyter Lab or Python from this level in the folder structure

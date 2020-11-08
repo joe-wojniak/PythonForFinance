@@ -1,6 +1,6 @@
 # Financial Time Series Line Plots
 
-This example demonstrates making line plots using pandas and a simple Python control loop to load data from different ticker symbols.
+This example demonstrates making line plots using Pandas and a simple Python control loop to load data from different ticker symbols.
 
 ```
 {

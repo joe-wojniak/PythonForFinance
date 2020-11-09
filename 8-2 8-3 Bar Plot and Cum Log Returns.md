@@ -1,4 +1,4 @@
-# Chapter 8 - continued
+# Percentage Change Bar Plot and Cumulative Log Returns Plot
 
 *Figure 8-2: Mean values of percentage changes as bar plot*
 

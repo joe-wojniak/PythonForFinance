@@ -1,4 +1,4 @@
-#Chapter 8
+# Chapter 8 - continued
 
 *Figure 8-2: Mean values of percentage changes as bar plot*
 

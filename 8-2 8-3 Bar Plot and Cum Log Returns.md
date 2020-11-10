@@ -6,7 +6,8 @@
 
 ![Percent Changes & Log Returns](https://github.com/joe-wojniak/PythonForFinance/blob/main/8-2and8-3.PNG)
 
-'''# Python 3
+'''python
+# Python 3
 # Python for Finance, 2nd ed., Hilpisch, Ives
 # Chapter 8 - Financial Time Series
 # Figure 8-2 Mean values of percentage changes as bar plot
@@ -60,4 +61,5 @@ closePriceSymbolList.pct_change().mean().plot(kind='bar', figsize=(9,4))
 
 # Log Returns
 rets = np.log(closePriceSymbolList/closePriceSymbolList.shift(1))
-rets.cumsum().apply(np.exp).plot(figsize=(9,4))'''
+rets.cumsum().apply(np.exp).plot(figsize=(9,4))
+'''

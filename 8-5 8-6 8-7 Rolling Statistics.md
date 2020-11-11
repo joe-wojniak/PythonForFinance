@@ -32,7 +32,7 @@ data=pd.read_csv('./data_all.csv', index_col=0, parse_dates=True)
 data.info()
 
 sym = 'aapl.us.txt'
-data1 = pd.DataFrame(data[sym1].dropna())
+data1 = pd.DataFrame(data[sym].dropna())
 data1.tail()
 
 window = 20

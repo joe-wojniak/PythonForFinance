@@ -24,11 +24,11 @@ This repository is a result of that search.
 | ./data/daily/world/ | More data files |
 
 ## OR
-3. use data.csv in this repository
+3. use data.csv from this repository
 
 *.ipynb files will need to be modified to load the data.csv file instead of utilizing the folder structure from the stooq.com zip file
 
-dataLoader.ipynb will load the raw data files from the stooq.com zip file and format them into the data.csv file
+dataLoader.ipynb will load the raw data files from the stooq.com unzipped folder structure and format them into the data.csv file
 
 ## Please Star This Repo!
 *It will heLp others to find it*

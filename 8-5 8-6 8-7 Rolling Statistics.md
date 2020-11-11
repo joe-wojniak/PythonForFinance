@@ -6,7 +6,7 @@
 
 ```python
 ######################################################################################
-# Python for Finance, 2nd ed., Hilpisch, Ives
+# Python for Finance, 2nd ed., Hilpisch, Yves
 # Chapter 8 - Financial Time Series: Rolling Statistics
 #             a.k.a. financial indicators or financial studies
 #

@@ -23,7 +23,7 @@ This repository is a result of that search.
 | ./data/daily/us/ | Data files are located under this branch |
 | ./data/daily/world/ | More data files |
 
-#OR-#
+##OR-
 3. use data.csv in this repository
 
 *.ipynb files will need to be modified to load the data.csv file instead of utilizing the folder structure from the stooq.com zip file

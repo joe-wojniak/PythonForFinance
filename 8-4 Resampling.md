@@ -1,4 +1,4 @@
-# Chapter 8 - Resampling
+# Resampling Time Intervals
 Fig 8-2 Resampling (monthly time interval):
 
 ![Resampling](https://github.com/joe-wojniak/PythonForFinance/blob/main/8-4%20Resampling%20Plot.PNG)

@@ -1,3 +1,4 @@
+![OHLC plot](https://github.com/joe-wojniak/PythonForFinance/blob/main/7-27%20OHLC%20EUR-USD%20wBB.PNG)
 ```
 ######################################################################################
 # Python for Finance, 2nd ed., Hilpisch, Yves

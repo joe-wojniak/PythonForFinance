@@ -10,6 +10,12 @@ I started reading Python for Finance after being introduced to it through an onl
 I was unable to locate the dataset used in the book that demonstrates the code samples, so I began searching for available sources of similar data.
 This repository is a result of that search.
 
+## Update: 2020-Nov-15
+
+Yves has a companion repository for the book here:  ![py4fi](https://github.com/yhilpisch/py4fi)
+
+Working the example code has been a great learning experience for me, which wouldn't have been possible without the book. -jw
+
 ## How do I use this repo?
 
 1. Download the source code (*.ipynb)

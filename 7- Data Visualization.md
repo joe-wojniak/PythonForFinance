@@ -1,7 +1,7 @@
 # Data Visualization
 ## OHLC plot of EUR/USD exchange rates with Bollinger band and RSI
 
-![OHLC plot](https://github.com/joe-wojniak/PythonForFinance/blob/main/7-27%20OHLC%20EUR-USD%20wBB.PNG)
+![OHLC plot](https://github.com/joe-wojniak/PythonForFinance/blob/main/Data%20Visualization/PFF_Ch7_Fig_7-27_OHLC_EUR-USDwBB.PNG)
 ```
 ######################################################################################
 # Python for Finance, 2nd ed., Hilpisch, Yves

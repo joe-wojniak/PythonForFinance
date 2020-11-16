@@ -1,7 +1,7 @@
 # Resampling Time Intervals
 Fig 8-4 Resampling (monthly time interval):
 
-![Resampling](https://github.com/joe-wojniak/PythonForFinance/blob/main/8-4%20Resampling%20Plot.PNG)
+![Resampling](https://github.com/joe-wojniak/PythonForFinance/blob/main/Financial%20Time%20Series/PFF_8-4_Resampling_Plot.PNG)
 
 ```python
 # Python 3

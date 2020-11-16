@@ -1,41 +1,43 @@
 # Financial Time Series Line Plots
 
 This example demonstrates making line plots using Pandas and a simple Python control loop to load data from different ticker symbols.
+
 ![lineplots](https://github.com/joe-wojniak/PythonForFinance/blob/main/Financial%20Time%20Series/PFF_Ch8_8-1.png)
+
 ```
-# Python 3
 # Python for Finance, 2nd ed., Hilpisch, Ives
 # Chapter 8 - Financial Time Series
 # Figure 8-1 Financial time series data as line plots
+# Python 3
 # https://stooq.com/db/h/
+# https://matplotlib.org/3.1.0/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
+# https://matplotlib.org/3.1.0/gallery/subplots_axes_and_figures/subplots_demo.html
+
+import pandas as pd
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+
+import warnings
+warnings.filterwarnings('ignore')
 
 %matplotlib inline
-import numpy as np
-import pandas as pd
-from pylab import mpl, plt
 
-plt.style.use('seaborn')
-mpl.rcParams['font.family']='serif'
+data = pd.read_csv('data.csv', index_col=0, parse_dates=True)
 
-amzn = './data/daily/us/nasdaq stocks/1/amzn.us.txt'
-msft = './data/daily/us/nasdaq stocks/2/msft.us.txt'
-aapl = './data/daily/us/nasdaq stocks/1/aapl.us.txt'
-intc = './data/daily/us/nasdaq stocks/1/intc.us.txt'
-gsn = './data/daily/us/nyse stocks/1/gs_n.us.txt'
-spy = './data/daily/us/nyse etfs/spy.us.txt'
-ivv = './data/daily/us/nyse etfs/ivv.us.txt' #etf simulates SPX index
-vxx = './data/daily/us/nyse etfs/vxx.us.txt' #etf simulates VIX index
-eur = './data/daily/world/commodities cash/eu.c.txt'
-xau = './data/daily/world/currencies/major/xauusd.txt' #stand-in for XAU index
-gdx = './data/daily/us/nyse etfs/gdx.us.txt'
-gld = './data/daily/us/nyse etfs/gld.us.txt'
+# Create subplots
+fig, axs = plt.subplots(12, 1, figsize=(16,24))
+plt.subplots_adjust(top=1, bottom=0, hspace=0.5)
 
-filename = [amzn, msft, aapl, intc, gsn, spy, ivv, vxx, eur, xau, gdx, gld]
+i = 0
+while i < 12:
+    axs[i].plot(data.iloc[:,i])
+    axs[i].set(title=data.columns[i], ylabel='Closing Price')
+    
+    if i==11:
+        axs[i].set(title=data.columns[i], xlabel='Date')
+        
+    i = i + 1
 
-for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
-    data = pd.read_csv(filename[i], index_col=2, parse_dates=True)
-    closePrice = data[['<TICKER>','<CLOSE>']]
-    closePrice2020 = closePrice.loc['2020']
-    #print(filename[i])
-    closePrice2020.plot(title=filename[i])
+plt.savefig('PFF_Ch8_8-1.png')
 ```

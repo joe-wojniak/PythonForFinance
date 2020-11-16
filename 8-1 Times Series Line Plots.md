@@ -1,9 +1,8 @@
 # Financial Time Series Line Plots
 
 This example demonstrates making line plots using Pandas and a simple Python control loop to load data from different ticker symbols.
-
+![lineplots](https://github.com/joe-wojniak/PythonForFinance/blob/main/Financial%20Time%20Series/PFF_Ch8_8-1.png)
 ```
-{
 # Python 3
 # Python for Finance, 2nd ed., Hilpisch, Ives
 # Chapter 8 - Financial Time Series
@@ -39,5 +38,4 @@ for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
     closePrice2020 = closePrice.loc['2020']
     #print(filename[i])
     closePrice2020.plot(title=filename[i])
-}
 ```

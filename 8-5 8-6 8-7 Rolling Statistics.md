@@ -1,8 +1,8 @@
 # Rolling Statistics
 
-![min mean max](https://github.com/joe-wojniak/PythonForFinance/blob/main/rollingStat1.PNG)
+![min mean max](https://github.com/joe-wojniak/PythonForFinance/blob/main/Financial%20Time%20Series/PFF_Ch8_rollingStat1.PNG)
 
-![position](https://github.com/joe-wojniak/PythonForFinance/blob/main/rollingStat2.PNG)
+![position](https://github.com/joe-wojniak/PythonForFinance/blob/main/Financial%20Time%20Series/PFF_Ch8_rollingStat2.PNG)
 
 ```python
 ######################################################################################

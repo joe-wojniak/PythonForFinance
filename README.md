@@ -33,9 +33,25 @@ Working the example code has been a great learning experience for me, which woul
 ## OR
 3. use data.csv from this repository
 
+## File Folder Structure
+Each topic has a Jupyter Lab notebook (*.ipynb) under a topic folder.  The markdown (*.md) files provide a summary of each topic.  Each topic builds upon the previous topic, so it is helpful to skim Data Visualization before covering Financial Time Series; skim Financial Time Series before Trading Strategies, etc.
+
+### Topics:
+* Data Visualization (Chapter 7, Py4Fi)
+* Financial Time Series (Chapter 8, Py4Fi)
+* Trading Strategies (Chapter 15, Py4Fi)
+
+### Markdown Summaries
+* 07-0 Data Visualization.md
+* 08-1 Time Series Line Plots.md
+* 08-2 08-3 Bar Plot and Cum Log Returns.md
+* 08-4 Resampling.md
+* 08-5 08-6 08-7 Rolling Statistics.md
+* 15-0 Trading Strategies (Coinbase Pro Sandbox / Cryptocurrency Demo)
+
 *.ipynb files will need to be modified to load the data.csv file instead of utilizing the folder structure from the stooq.com zip file
 
-dataLoader.ipynb will load the raw data files from the stooq.com unzipped folder structure and format them into the data.csv file
++dataLoader.ipynb will load the Stooq raw data files from the stooq.com unzipped folder structure and format them into the data.csv file
 
 ## Please Star This Repo!
 *It will heLp others to find it*

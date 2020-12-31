@@ -1,6 +1,7 @@
 # Trading Strategies
 
-This demo utilizes the Coinbase Pro public end points and the Coinbase Pro client for Python (https://github.com/danpaquin/coinbasepro-python)
+This demo utilizes the Coinbase Pro public end points and the Coinbase Pro client for Python 
+* (https://github.com/danpaquin/coinbasepro-python)
 
 ## Reference: Chapter 15 Trading Strategies, Python For Finance, 2nd edition
 

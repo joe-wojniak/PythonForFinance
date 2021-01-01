@@ -3,7 +3,7 @@ A repo of examples inspired by the book *Python for Finance* (Py4Fi)
 
 Book: *[Python for Finance](https://www.amazon.com/Python-Finance-Mastering-Data-Driven/dp/1492024333/ref=sr_1_3?crid=Q54A45DY5MHP&dchild=1&keywords=python+for+finance+by+yves+hilpisch&qid=1604860574&sprefix=python+for+finance+yves%2Caps%2C196&sr=8-3), 2nd ed, Hilpisch, Yves*
 
-For a comprehensive online training program covering Python for alogrithmic trading see http://certificate.tpq.io.
+For a comprehensive online training program covering Python for algorithmic trading see http://certificate.tpq.io.
 
 ![OHLC_EUR-USDwBB](https://github.com/joe-wojniak/PythonForFinance/blob/main/Data%20Visualization/PFF_Ch7_Fig_7-27_OHLC_EUR-USDwBB.PNG)
 
